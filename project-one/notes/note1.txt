@@ -1,0 +1,33 @@
+Inline CSS 
+CSS in head section
+CSS in external stylesheet
+
+Browser applies default fonts according to the rules set in 
+Customize fonts sectin in Browser settings.
+
+Selectors
+
+Element : We can use html element name to define css rules
+Class : We can define our own class names in which we can apply css
+Universal: Rarely being used, this will apply the style defined to all HTML elements.
+ID: Same CSS rules but it applies on one specific element.
+Atributes: Applies styes to all elements with the Atribute.
+
+We can assign multiple classes with a space between classes.
+
+CSS Specificity:
+
+1st priority: Inline styles
+2nd priority: CSS class (user-defined) attribute.
+3rd priority: Based on top-bottom parse.
+
+Cascading: Multiple rules apply to same element.
+Specificity: Resolves conflict arising from multiple rules.
+<Tag> and ::pseudo element Selectors have lowest priority.
+* has lowest priority
+.class, :pseudo-class and [attribute] Selectors have higher priority than <Tag> Selectors.
+#ID: more higher priority
+Inline: highest priority.
+
+
+
