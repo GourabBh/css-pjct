@@ -29,5 +29,8 @@ Specificity: Resolves conflict arising from multiple rules.
 #ID: more higher priority
 Inline: highest priority.
 
+Inheritance: Usually defined in body, some CSS rules which gets applied to HTML 
+elements whenever we define those. Of course, if we add any high priority Selectors like
+class, id, then definitely it will override that particular style defined in body.
 
 
